@@ -1,9 +1,10 @@
-@regression
+@Checkout
 Feature: verify checkout order functionality
 
   Background: User has opened application
     Given user open aplikasi rupa rupa mobile
 
+    @Regression
   Scenario: verify checkout order with invalid data
     When the user tap on "Rumah Tangga" category button
     And the user tap on Lihat Semua "Rumah Tangga" category button
